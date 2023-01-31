@@ -1,0 +1,10 @@
+---
+- name: this action perform on local
+  hosts: localhost
+  connection: local
+  become: true
+  tasks:
+  - name: install htop
+    apt:
+      name: htop
+...
