@@ -7,4 +7,5 @@
   - name: install htop
     apt:
       name: htop
+      state: absent
 ...
